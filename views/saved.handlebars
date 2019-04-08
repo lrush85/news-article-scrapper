@@ -1,0 +1,12 @@
+<div class="container">
+    <h1>Reugers Saved Articles</h1>
+    {{#each articles}}
+    <h2 class="saved-heading" data-id={{_id}}>{{title}}</h2>
+    <p>
+            <a href="{{link}}">Check It Out</a>
+    </p>
+        <div id="notes"></div>
+        <div id="saved"></div>
+
+    {{/each}}
+</div>
